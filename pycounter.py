@@ -3,7 +3,7 @@ import os
 
 
 def recursivewalk(path, endswith):
-    counter = 0;
+    counter = 0
 
     for root, dirs, files in os.walk(path):
         for name in files:
